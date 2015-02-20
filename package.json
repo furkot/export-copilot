@@ -1,0 +1,24 @@
+{
+  "name": "furkot-copilot",
+  "version": "0.0.1",
+  "description": "Generate copilot .TRP files from Furkot trip data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make check"
+  },
+  "keywords": [
+    "furkot",
+    "trip",
+    "copilot"
+  ],
+  "author": "Natalia Kowalczyk <melitele@code42day.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
+  },
+  "dependencies": {
+    "polyline-encoded": "~0"
+  }
+}
