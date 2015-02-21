@@ -6,6 +6,10 @@
   "scripts": {
     "test": "make check"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/furkot/furkot-copilot.git"
+  },
   "keywords": [
     "furkot",
     "trip",
