@@ -1,0 +1,22 @@
+{
+    "globals": {
+    },
+    "node": true,
+    "strict": false,
+    "bitwise": true,
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": "nofunc",
+    "loopfunc": false,
+    "noarg": true,
+    "undef": true,
+    "unused": true,
+    "laxbreak": true,
+    "noempty": true,
+    "nonew": true,
+    "onevar": true,
+    "plusplus": true,
+    "trailing": true,
+    "white": false
+}

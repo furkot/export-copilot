@@ -1,7 +1,8 @@
-var assert = require('assert');
 var trp = require('../lib/trp');
 var fs = require('fs');
 var path = require('path');
+
+/*global describe, it*/
 
 function loadFile(dirname, file) {
   var filename = path.resolve(dirname, file);
