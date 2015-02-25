@@ -35,4 +35,19 @@ describe('copilot trp', function () {
     generated.should.eql(expected);
     done();
   });
+
+  it('day routes', function (done) {
+    var t = loadJson(__dirname, './fixtures/day-routes.json'),
+      generated = trp(t);
+
+    generated.forEach(function (generated, i) {
+      var expected = loadFile(__dirname, './fixtures/day-routes/day-' + (i + 1) + '.trp');
+      
+      // require('fs').writeFileSync('day-' + (i + 1) + '.trp', generated);
+
+      generated.should.eql(expected);
+    });
+
+    done();
+  });
 });
