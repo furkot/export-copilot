@@ -1,3 +1,9 @@
+0.3.0 / 2015-02-25
+==================
+
+ * handle multiple day routes
+ * extract street address
+
 0.2.1 / 2015-02-25
 ==================
 
