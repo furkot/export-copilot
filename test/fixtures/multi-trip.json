@@ -13,7 +13,8 @@
       "link": "https://trips.furkot.com"
     }
   },
-  "routes" : [[
+  "routes" : [ {
+	"points" : [
       {
         "day" : 0,
         "name" : "Boston, MA",
@@ -121,5 +122,6 @@
         "nights" : 0,
         "arrival_time" : 1366909309000,
         "departure_time" : 1366909309000
-      } ] ]
+      } ]
+  } ]
 }

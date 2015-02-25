@@ -13,7 +13,8 @@
       "link": "https://trips.furkot.com"
     }
   },
-  "routes" : [ [
+  "routes" : [ {
+    "points" : [
       {
     	"day" : 0,
         "name" : "San Francisco",
@@ -100,5 +101,6 @@
         "nights" : 0,
         "arrival_time" : 1373326555000,
         "departure_time" : 1373326555000
-      } ] ]
+      } ] 
+  } ]
 }
