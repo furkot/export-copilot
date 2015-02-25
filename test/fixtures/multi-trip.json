@@ -1,9 +1,10 @@
 {
   "metadata" : {
     "name" : "Ski trip",
+    "desc" : "Winter trip to Killington",
     "units" : "km",
     "author" : {
-      "name": "Furkot - road trip planner. See:",
+      "name": "Furkot - road trip planner",
       "short_name": "Furkot",
       "email": {
         "id": "trips",
@@ -52,13 +53,6 @@
         },
         "visit_duration" : 0,
         "url" : "http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683",
-        "directions" : {
-          "route" : {
-            "duration" : 3319,
-            "distance" : 80888,
-            "polyline" : "qcpaGr|upL^P~@t@H]t@{Dv@wEq@g@aBq@gCCiAbHOXk@r@wCrAw@x@gAzBSn@q@}@Ym@o@eByByFgA{D_AcDg@i@OLUj@}CzCyO`OgQhSwCjDqHnLeGpM_DfIyA~DoBvDcChD_DhDwFdEyDjCwCnAkCf@sCNkBGmJy@iF`@cDt@eBt@yClB{AtAwCfDmElGyFjIoElFcCtBeDpCgDrDyDxFmUt\\}FvHiFvFkKfJi_@x[mCbCkH`GcD`BmDfAiGl@_FNsMTqNPcRmA_RgAwEUiKA{L[yGcAc@YsBQwE[gJb@oOlDwZ~GcLjA}JK{G}@wSaEkUqEsGqAiH_AwIMwDP_Gv@oEfAmKtEm`@xVko@~`@yU~NeK`EaJzBmEh@qF\\aNRkFHom@z@yIj@kDf@}ItAsAVkFlBaFlC_EdCiGhFgI`H_XnUyUzRyHnHcHdFgH~DwJtD}JnBsHjA_H\\cG?aDKa]oBkUkAcNOgCPiHf@gKlA{[hFmL~BqRlGuSnJiAr@i|@da@yIlE}YzP}J~GoDfBwVlPwJdIgZjXwUjTcRdPkLvHkFnCaJtDmGnBcYfGseBl]ch@`K_TfEmH|AyRjFej@nR}SfHubAf^om@bTe_Al\\knAlc@ce@hPcOjFqHfB_KlAoOhAkVlBaMt@eQb@cP]aOyA}MaCiToGsf@eToIsD_H{AkHk@uE?aGh@cHzAwEjBmDpBoKpJkl@zl@aTvTeF|GuEjIeQ`b@_DhH{E`J_KnN{KxKuQnLkq@p`@qSrL_DvBwE|D_EjEgEnGqCtFqDnJkBdHaFl[kDrV}AjIgB~FgC~FmE|GmFlFeFdD_FnBaF~@}FVoFQaOcCcc@qHkJyAkGWwFt@}CrAgAv@}C|CuC`FsBdGgMrh@eDdLcBfEoCrFyCzEcGbHsExDyXjPiVdNuZdQwHvEiJbIkGtHiGvIsFvHaJ|KcKhJcPbNgSxPed@l`@yHnJ{FrJyExKyB~GqBrIkKli@aElMqCxFyBvD{BxC{DbEeDpCwFjDsEhBwGlBc[`JkV~Ga^jKmCpAyCtBqKrLyj@zq@oJzJwIfG}FtCyg@zSea@pPsMlFeI`EiUlNcZtQs[lQ{JbFyKtEgVbI}L|Eea@vUiFxEiOhTk_@bj@mWj_@gDfEwArAoA|A}MjLgEvD_CjDuAjDm@~B}Fz[q@pGDbFnGni@hGle@x@pHbEhWfAtE~Ba@dGSfDf@pAb@|BZtDe@bGcDjImEFcD[aD[uA"
-          }
-        },
         "nights" : 1,
         "arrival_time" : 1366725319000,
         "departure_time" : 1366808400000
@@ -80,13 +74,6 @@
           "country_long" : "United States"
         },
         "visit_duration" : 7200000,
-        "directions" : {
-          "route" : {
-            "duration" : 1473,
-            "distance" : 37154,
-            "polyline" : "atceGvs~rLGSMR^fBNz@Bb@Bp@@j@C|A_@JaB~@y@`@wAv@eBdAgCtAk@Ti@Ng@Jk@DgA@qBUSGUQg@OiA[e@Cw@G[E]?_B@cAJgAsEm@_BoAeCu@sCOq@sAeEuAoH}@sFu@oF}@wHi@mFeAiMkB{Tg@oFYgCMy@WoA[iA[y@Sa@Sa@m@_Ay@cA_Au@k@_@u@]eD_AwGeBqIyBuAWuAO_AEcA@eADgAHWASKqC`@mJbAoJv@eE`@aCTcGv@kDd@eFr@_Df@mBTkG`AmCXoG`@kADwG\\{ELeFHiB@{HCkNOe@Fq@?y@@w@FmB\\WFsAf@aAf@iAx@eAfA[^o@`Au@vAy@jB]fAc@bBeFfV_GbZs@vDy@|CSj@_@~@}@hBaBbCmAnAgA|@kAr@kAj@}Af@wCj@}El@sAToKjBgHbAkJzAeDx@eCz@wB~@eDnB}C~BeOrLqG~EyDtC}CjCmCfCuLhJyC~B_@VwBzAmGxFiCpBcFzCm@N{FzC}K|FkDdB_E~BaDrBwAnA}C`D}D`FiA`BoDlFmBpCYh@qCbEyFbI}B`DcHfKc@n@qAxAmE~GoB`CuAtBYb@eElGuJxMeBtBs@z@aBlAuAdA}CxAwDv@iCPaABaVMsIJkLOyDAoXh@yXh@{DLwMZuNXwFPkQb@iCFaCTsL|A_IfAgBTwEb@gFp@i@Hi@HcOtCiJdAqP`CmCZaEZcCBgCCwGe@gZaCeDYyCQ{DB{DNmDb@kEjAwFvB}BbA}\\dNuDvAs^rOwL`FaO~FwIpDsDjBkQ`NiK~HcI|FaFzDeLzI_G~Ds@j@qIpG}KrIuRbOeW|RmOdLqH|Fa@X_SlO}CxCkAtAkA`BcC`EgArBeDlHsA`DgCrFiUfh@eBvDqF`M}AhDqAfCu@hAwAhBeC|BoCrBq@^sAp@{OvEmBd@cHzBcDt@}BDmBScB[mAg@kAu@eA}@kA}AkAeBsHuNuAcC}IiQq@gA_AeAi@k@sB{Am@[k@WsAa@uASuAIwA@uANsAXw@XwI`EkJjEiHzCuEtBmEjB{XxLyEtB{D`BqJ|D{Bz@oDjAqA`@kGnBsD~@wDt@}HfA{Ej@eCVgBHyBFwD?eIKgIMs@W_@G[MYQS[O_@Ia@Ce@@c@Fa@N_@LOLMNKXIT?J@XLNJd@j@Vf@`@v@t@vDh@vCItBY|@_@b@g@R[@]Cc@WUWQ]Ic@Ee@@e@Ji@L[TYLKZI^Gj@ATEJKbRRrBCvCM`Hy@lIeAvB]hDo@~Bm@pEqA`DaA"
-          }
-        },
         "nights" : 0,
         "arrival_time" : 1366809873000,
         "departure_time" : 1366817073000
@@ -109,13 +96,6 @@
         },
         "visit_duration" : 7200000,
         "url" : "http://www.easytobook.com/en/united-states-of-america/new-hampshire/manchester/courtyard-by-marriott-manchester/?affid=280826683",
-        "directions" : {
-          "route" : {
-            "duration" : 1414,
-            "distance" : 35992,
-            "polyline" : "moufGnarsLbBg@rEeBfQiH|JyDbR_I|LqF~EqBnCkA`@SDElNiHhAk@jAe@|Aa@~BWhCApB\\hA`@v@\\b@XbAz@l@j@rB|Bn@fArDtHhEvIf@z@`DvFvB`EjAlBn@~@bAdAnBtAjBt@zBd@lCVbAIzAWxBm@rIaChCi@zGiBlBk@|@Yp@a@TMRMVObCmB|B{BnA}AdAeBbBcD~@gB|@{BrDuIjEmJdH_P`EoJlCyFpE}K~CgHzBmErCiEzCiDjAeAtGeF`LsIh@a@nFeEvOiL~WmSbAq@pN{KlGuErEiDlDmCfEmDdHiFbRyNjLsIvGeF~GyFzCaC~B_BfHuDhQgHxf@_SdAg@rSoIt[oMbFkBdCu@vBa@zASnBOfBG~B?rCLvL`AjZ`C~CFbD?tCOzFm@x]eFzLkArFm@zIsArIuA|Fw@dGm@fCQba@eA|o@cBnTYfa@b@bb@b@nEPzAA|BB|AJv@FdAPxCv@lCdA|BrAtCzBnAtAhApAhCvDbJrMlDvEfEjGjEjGlEfGPXtAtBhB~BpBrB~ApA`BfAfB|@fBr@fCp@rc@vIlFdAlCXjCFpBEfD[lB_@jBi@~Ao@|@c@zBsA|AoApBqB|UsZfB_CfIiK`CcC|BgBf@_@bB}@zCoA~CeAvJeDhCu@nB]hDW~CMzNc@vH]dEMv@Gt@Mt@Ur@[p@e@l@i@j@q@`AaBhC{GfAoBn@q@`@]h@]h@YRKb@KbAQ|@EhE@bA@tA?jBFhG^zBThBTzB`@vCf@jGx@dANj@@dA?dAMlAW|EiBt@YfBm@hDkAzA]nBS`DEzCNZB`@NlBX`@DrEnA`DfAbDtA`Bv@bDnBtDzBjFpD|CjBzAz@xFfD|CtAdCv@rCn@bBVnBRnAFtBBtACtCMpAOhFy@xU}D`BU|RcD~HuAd@Gx@DxBMpCD|Bb@pAn@vCzAnA`@dAJtA@d@Gx@O`A]|@c@bAc@Zc@l@mAj@oA\\s@t@qBtAoFh@cC\\_C|AaOf@{ERsDK}HcBsOoAqK[cDk@{Es@yD_@}Ai@gBmAcD{AeDeAgBuB_DcEeGgAkB_@{@y@sB{@wBw@}BsAeFgEoQc@gBMk@@_@wAiGcBeIaAkFyAaJSqBk@iD?c@DORYpB?hAJ|AZpAb@~AX\\@n@Aj@Eh@Kn@Q|@a@dEaCx@a@|A_AfCqAj@YFcDIkAQuAIg@Qm@"
-          }
-        },
         "nights" : 1,
         "arrival_time" : 1366818487000,
         "departure_time" : 1366902000000
@@ -138,16 +118,8 @@
         "notes" : "",
         "address" : "Killington, VT",
         "visit_duration" : 0,
-        "directions" : {
-          "route" : {
-            "duration" : 7309,
-            "distance" : 181741,
-            "polyline" : "atceGvs~rL`@xF}DvFoNjG{J}AuG?eEyLqOocAoFgg@mIuJ_a@kIk_BjPcu@j@}O`Ge`@luAuYdKie@dIaQjJsfAt{@yx@bg@iuAlmBkLvEm\\FcpAlAmgBvJid@`He_@|Dgg@kDwTWqRfF_dBvr@g_Axn@im@ld@scB~sA{|@thBqKtIoEXAgGpE|BnErKfJja@oOlu@kkAtpDkIzbAb@tXld@xgBxLjj@_@x\\um@nxEpD|lCxEhcBeJx^kGhFkg@bKgPzDyXdTcp@|g@eg@`_@}hAt{A{hAjwAudAbUg^pJiZnRe[xXqk@dbB_Hjw@kVdu@fDhqAyB`ZqO~XqIfZgJ||@qQv`@o\\xR}{@xXk`AzYyRzKgL|RsF~ZgE`~@}Thx@uEjuAsDzUoNlX_\\p~@qLdNgR`EsgA|FmZxHsNbOyLpc@ePb^c_@x[ov@t_@wNfOcg@zyBmOfb@qm@dgAu[vuAyGrz@kK|qAa_@ho@sj@rq@clAvcAynAhe@eNzR{P|m@cPtaBwQhs@il@tkAcq@p]ke@jm@sLhBuJ}BeRyFiKdA}hA~[qI|HmHx[~BhoA{L|[es@|V{y@jDmN|Ces@rc@_Q~Asp@gKgx@eGq|Bf[eTbTaRbZoc@zr@{Q|Jm\\dFix@f_@ui@uG{KxCiL|QuDrcAeLnTkb@v[u\\v^up@hc@iLdRkPbb@aTnMab@rMsIbF}IfRgKrfAu]ry@{QjbB_Cj_@~Kf_@xz@v}A|GlNfOzj@pWt}C{Cbu@{Tjq@s\\~p@k`@xm@sZV_MhB}b@hXyJz[gQ`qBwNdp@sHvNK`OjNlJva@iDtWrBfI~EtMxQn_@pJtIO~PkKdHgApGdDxFpYw@lfAeDbM_PjGwIxP_Dn`@_G`c@nBjVeDbc@~Jl\\`[tQjLpZ~I~d@hDdIvG~BhQqD~GlBdErUaOlq@yYjUiTnJwEtMg@xUO~h@x@j]fLr^b@b[xJfR`ZxQxJpBdDnAlBhDg@pLOfSbDvRjE|N}@hY~HjM|DpGrDzC~ClHbFlYxEjJjNbv@rR~Wb[dU|Rrl@nRn_@vHt\\m@bZiAt]|M|XgDzx@bBd\\bVjf@vJh_@fUhKpW|a@mA~WsDd_@qAjv@}Ctm@fChe@dEbc@{Fh^sKfa@wj@|e@wDdWbD~L{@v[s@|WzF~KjAz`@xJbVpF|VtEtRuAlI}It]wS~IyMf[`Gx]wA|JwKxMwN`i@Udd@dWb{@wBrUoSvDgl@fEuO`Tue@jYcc@rNeqC`r@wu@lQcUtVsTnq@zEfRQ|HmHvN"
-          }
-        },
         "nights" : 0,
         "arrival_time" : 1366909309000,
         "departure_time" : 1366909309000
-      } ] ],
-  "tracks" : true
+      } ] ]
 }

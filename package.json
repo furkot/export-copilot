@@ -1,7 +1,7 @@
 {
   "name": "furkot-copilot",
   "version": "0.1.1",
-  "description": "Generate copilot .TRP files from Furkot trip data.",
+  "description": "Generate CoPilot .TRP files from Furkot trip data.",
   "main": "index.js",
   "scripts": {
     "test": "make check"
@@ -23,6 +23,5 @@
     "should": "^5.0.0"
   },
   "dependencies": {
-    "polyline-encoded": "~0"
   }
 }
