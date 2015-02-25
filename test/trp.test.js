@@ -16,11 +16,7 @@ function loadJson(dirname, file) {
 describe('copilot trp', function () {
   it('simple trip', function (done) {
     var t = loadJson(__dirname, './fixtures/simple-trip.json'),
-      generated = trp(t, {
-        tracks: true,
-        creator: 'Furkot - road trip planner. See: https://trips.furkot.com',
-        destination: 'Furkot trip'
-      }),
+      generated = trp(t),
       expected = loadFile(__dirname, './fixtures/simple.trp');
 
     // require('fs').writeFileSync('simple.trp', generated);
@@ -31,11 +27,7 @@ describe('copilot trp', function () {
 
   it('multi trip', function (done) {
     var t = loadJson(__dirname, './fixtures/multi-trip.json'),
-      generated = trp(t, {
-        tracks: true,
-        creator: 'Furkot - road trip planner. See: https://trips.furkot.com',
-        destination: 'Furkot trip'
-      }),
+      generated = trp(t),
       expected = loadFile(__dirname, './fixtures/multi.trp');
 
     // require('fs').writeFileSync('multi.trp', generated);

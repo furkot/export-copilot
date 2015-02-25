@@ -1,9 +1,18 @@
 {
-  "destination" : "Ski trip",
-  "units" : {
-    "distance" : "km"
+  "metadata" : {
+    "name" : "Ski trip",
+    "units" : "km",
+    "author" : {
+      "name": "Furkot - road trip planner. See:",
+      "short_name": "Furkot",
+      "email": {
+        "id": "trips",
+        "domain": "furkot.com"
+      },
+      "link": "https://trips.furkot.com"
+    }
   },
-  "steps" : [
+  "routes" : [[
       {
         "day" : 0,
         "name" : "Boston, MA",
@@ -139,5 +148,6 @@
         "nights" : 0,
         "arrival_time" : 1366909309000,
         "departure_time" : 1366909309000
-      } ]
+      } ] ],
+  "tracks" : true
 }
