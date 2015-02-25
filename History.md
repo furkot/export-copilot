@@ -1,3 +1,8 @@
+0.2.1 / 2015-02-25
+==================
+
+ * change input data format (add points field to route)
+
 0.2.0 / 2015-02-25
 ==================
 
