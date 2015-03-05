@@ -1,6 +1,6 @@
 {
   "name": "furkot-copilot",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Generate CoPilot .TRP files from Furkot trip data.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,5 @@
     "mocha": "^2.1.0",
     "should": "^5.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
