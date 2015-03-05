@@ -36,6 +36,17 @@ describe('copilot trp', function () {
     done();
   });
 
+  it('pass thru', function (done) {
+    var t = loadJson(__dirname, './fixtures/pass-thru.json'),
+      generated = trp(t),
+      expected = loadFile(__dirname, './fixtures/pass-thru.trp');
+
+    // require('fs').writeFileSync('pass-thru.trp', generated);
+
+    generated.should.eql(expected);
+    done();
+  });
+
   it('day routes', function (done) {
     var t = loadJson(__dirname, './fixtures/day-routes.json'),
       generated = trp(t);

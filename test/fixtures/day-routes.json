@@ -160,6 +160,7 @@
               "visit_duration" : 0,
               "name" : "pass-thru",
               "notes" : "",
+              "pin" : 15,
               "locality" : {
                 "town" : "Estes Park",
                 "province" : "CO",
