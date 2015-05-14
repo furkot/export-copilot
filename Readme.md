@@ -1,15 +1,36 @@
-#furkot-copilot
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][gemnasium-image]][gemnasium-url]
 
-Generate copilot .TRP files from [Furkot] trip data
+# furkot-copilot
 
-# Usage
+Generate CoPilot .TRP files from [Furkot] trip data.
 
-Install the tools using npm
+## Install
 
-    npm install
+```sh
+$ npm install --save furkot-copilot
+```
+
+## Usage
+
+```js
+var furkotCopilot = require('furkot-copilot');
+
+furkotCopilot(trip);
+```
 
 ## License
 
-MIT
+MIT © [code42day](https://code42day.com)
 
-[Furkot]:https://trips.furkot.com
+[Furkot]: https://trips.furkot.com
+
+[npm-image]: https://img.shields.io/npm/v/furkot-copilot.svg
+[npm-url]: https://npmjs.org/package/furkot-copilot
+
+[travis-url]: https://travis-ci.org/furkot/furkot-copilot
+[travis-image]: https://img.shields.io/travis/furkot/furkot-copilot.svg
+
+[gemnasium-image]: https://img.shields.io/gemnasium/furkot/furkot-copilot.svg
+[gemnasium-url]: https://gemnasium.com/furkot/furkot-copilot

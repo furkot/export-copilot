@@ -2,25 +2,28 @@
   "name": "furkot-copilot",
   "version": "0.3.1",
   "description": "Generate CoPilot .TRP files from Furkot trip data.",
-  "main": "index.js",
+  "homepage": "https://trips.furkot.com",
+  "author": {
+    "name": "Natalia Kowalczyk",
+    "email": "melitele@code42day.com",
+    "url": "https://melitele.me"
+  },
+  "repository": "furkot/furkot-copilot",
+  "license": "MIT",
+  "keywords": [
+    "furkot-copilot",
+    "furkot",
+    "export",
+    "copilot",
+    "trp"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.4",
+    "should": "^6.0.1"
+  },
   "scripts": {
     "test": "make check"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/furkot/furkot-copilot.git"
-  },
-  "keywords": [
-    "furkot",
-    "trip",
-    "copilot"
-  ],
-  "author": "Natalia Kowalczyk <melitele@code42day.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "jshint": "^2.6.0",
-    "mocha": "^2.1.0",
-    "should": "^5.0.0"
-  },
-  "dependencies": {}
+  }
 }
