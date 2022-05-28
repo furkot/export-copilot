@@ -13,6 +13,14 @@ function loadJson(dirname, file) {
   return JSON.parse(loadFile(dirname, file));
 }
 
+function compare(generated, expected) {
+  const actual = new Uint8Array(generated);
+  actual.should.have.length(expected.length);
+  for (let i = 0; i < actual.length; i += 1) {
+    actual[i].should.eql(expected.readUInt8(i), `byte at ${i}`);
+  }
+}
+
 describe('copilot trp', function () {
   it('simple trip', function (done) {
     var t = loadJson(__dirname, './fixtures/simple-trip.json'),
@@ -21,7 +29,7 @@ describe('copilot trp', function () {
 
     // require('fs').writeFileSync('simple.trp', generated);
 
-    generated.should.eql(expected);
+    compare(generated, expected);
     done();
   });
 
@@ -32,7 +40,7 @@ describe('copilot trp', function () {
 
     // require('fs').writeFileSync('multi.trp', generated);
 
-    generated.should.eql(expected);
+    compare(generated, expected);
     done();
   });
 
@@ -43,7 +51,7 @@ describe('copilot trp', function () {
 
     // require('fs').writeFileSync('pass-thru.trp', generated);
 
-    generated.should.eql(expected);
+    compare(generated, expected);
     done();
   });
 
@@ -53,10 +61,10 @@ describe('copilot trp', function () {
 
     generated.forEach(function (generated, i) {
       var expected = loadFile(__dirname, './fixtures/day-routes/day-' + (i + 1) + '.trp');
-      
+
       // require('fs').writeFileSync('day-' + (i + 1) + '.trp', generated);
 
-      generated.should.eql(expected);
+      compare(generated, expected);
     });
 
     done();
