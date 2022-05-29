@@ -13,12 +13,25 @@ function loadJson(dirname, file) {
   return JSON.parse(loadFile(dirname, file));
 }
 
+function concat(buffers) {
+  let result = new Uint8Array(0);
+  for (const buffer of buffers) {
+    let b = new Uint8Array(buffer);
+    let len = result.length + b.length;
+    let r = new Uint8Array(len);
+    r.set(result, 0);
+    r.set(b, result.length);
+    result = r;
+  }
+  return result;
+}
+
 function compare(generated, expected) {
-  const actual = new Uint8Array(generated);
-  actual.should.have.length(expected.length);
+  const actual = concat(generated);
   for (let i = 0; i < actual.length; i += 1) {
     actual[i].should.eql(expected.readUInt8(i), `byte at ${i}`);
   }
+  actual.should.have.length(expected.length);
 }
 
 describe('copilot trp', function () {
@@ -56,11 +69,20 @@ describe('copilot trp', function () {
   });
 
   it('day routes', function (done) {
-    var t = loadJson(__dirname, './fixtures/day-routes.json'),
-      generated = trp(t);
+    var t = loadJson(__dirname, './fixtures/day-routes.json');
 
-    generated.forEach(function (generated, i) {
-      var expected = loadFile(__dirname, './fixtures/day-routes/day-' + (i + 1) + '.trp');
+    t.routes.forEach((route, i) => {
+      const opts = {
+        metadata: {
+          name: [t.metadata.name, route.name].join(' - '),
+          author: t.metadata.author,
+          desc: t.metadata.desc
+        },
+        routes: [route]
+      };
+
+      const generated = trp(opts);
+      const expected = loadFile(__dirname, './fixtures/day-routes/day-' + (i + 1) + '.trp');
 
       // require('fs').writeFileSync('day-' + (i + 1) + '.trp', generated);
 
