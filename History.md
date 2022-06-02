@@ -1,4 +1,10 @@
 
+2.0.0 / 2022-06-02
+==================
+
+ * rename project to @furkot/export-copilot
+ * reimplement as generator
+
 1.0.0 / 2016-12-19
 ==================
 
