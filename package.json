@@ -1,5 +1,5 @@
 {
-  "name": "furkot-copilot",
+  "name": "@furkot/export-copilot",
   "version": "1.0.0",
   "description": "Generate CoPilot .TRP files from Furkot trip data.",
   "homepage": "https://trips.furkot.com",
@@ -8,7 +8,7 @@
     "email": "melitele@code42day.com",
     "url": "https://melitele.me"
   },
-  "repository": "furkot/furkot-copilot",
+  "repository": "furkot/export-copilot",
   "license": "MIT",
   "keywords": [
     "furkot-copilot",
