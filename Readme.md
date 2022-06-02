@@ -32,5 +32,5 @@ MIT © [code42day](https://code42day.com)
 [build-image]: https://img.shields.io/github/workflow/status/furkot/export-copilot/check
 [build-url]: https://github.com/furkot/export-copilot/actions/workflows/check.yaml
 
-[deps-image]: https://libraries.io/npm/@furkot%2Fexport-copilot
-[deps-url]: https://img.shields.io/librariesio/release/npm/@furkot/export-copilot
+[deps-image]: https://img.shields.io/librariesio/release/npm/@furkot/export-copilot
+[deps-url]: https://libraries.io/npm/@furkot%2Fexport-copilot
