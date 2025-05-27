@@ -1,4 +1,10 @@
 
+3.0.0 / 2025-05-27
+==================
+
+ * transition to ESM format
+ * use `biome` as a linter and formatter
+
 2.0.1 / 2022-06-02
 ==================
 
