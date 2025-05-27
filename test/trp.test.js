@@ -1,9 +1,9 @@
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const fs = require('node:fs');
-const path = require('node:path');
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import test from 'node:test';
 
-const trp = require('../lib/trp');
+import trp from '../lib/trp.js';
 
 test('simple trip', () => {
   const json = loadJson('./fixtures/simple-trip.json');
@@ -58,7 +58,7 @@ test('day routes', () => {
 });
 
 function loadFile(file) {
-  const filename = path.resolve(__dirname, file);
+  const filename = path.resolve(import.meta.dirname, file);
   return fs.readFileSync(filename);
 }
 
